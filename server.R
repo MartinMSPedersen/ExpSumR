@@ -2,7 +2,7 @@ library(shiny)
 
 shinyServer(function(input, output) {
 
-  output$exPlot <- renderPlot({
+  output$expPlot <- renderPlot({
 
     library(numbers)
     library(ggplot2)
